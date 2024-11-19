@@ -15,5 +15,5 @@ This project is a Command-Line Interface (CLI) HR system that matches applicants
 2. Compile the Java classes using `javac`.
 3. Run the application using the `java` command.
 
-
+## UML diagram of the system
 ![final](https://user-images.githubusercontent.com/119104583/204168444-d7a813b5-ac1c-41ec-8868-82f2ffb05143.png)
