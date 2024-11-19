@@ -2,13 +2,18 @@
 
 Final project for COMP90041 - Semester 2 2022
 
-A HR system that matches applicants with jobs using predefined comparing methods.
+This project is a Command-Line Interface (CLI) HR system that matches applicants with jobs using predefined comparison methods. It allows applicants to submit applications and apply to jobs, while HR can manage job listings, filter applications, and select suitable candidates.
 
-Applicant can input applications and select jobs to apply to.
+## Features
+- **Applicant Side**: Submit applications and apply to available jobs.
+- **HR Side**: Load job listings, filter applications, and select suitable candidates based on custom comparators.
+- **Comparators**: Applicants are ranked using custom comparator classes (e.g., by degree, name, or WAM).
 
-HR can load jobs and select suitable applicant or view based on filter of applications.
+## Installation
 
-Comparisons are implemented through custom comparator. Applicants can be ranked using comparator.
+1. Clone this repository.
+2. Compile the Java classes using `javac`.
+3. Run the application using the `java` command.
 
-HR Assistant contains multiple interfaces (menu) for different user, call through role flag
+
 ![final](https://user-images.githubusercontent.com/119104583/204168444-d7a813b5-ac1c-41ec-8868-82f2ffb05143.png)
